@@ -2,6 +2,7 @@ import os
 import yt_dlp
 import unicodedata
 from tqdm import tqdm
+from multiprocessing import Pool
 
 def download_video(url):
     script_path = os.path.dirname(os.path.realpath(__file__))
@@ -33,13 +34,19 @@ def download_video(url):
         print(f"Error downloading video: {e}")
         return None
 
+def download_videos(urls):
+    with Pool() as pool:
+        filenames = pool.map(download_video, urls)
+    return filenames
+
 def main():
-    print("Enter YouTube URLs one at a time. Type 'exit' to quit the program.")
+    print("Enter YouTube URLs one at a time. Press Ctrl-C to exit.")
 
     while True:
-        url = input("Enter URL: ")
-
-        if url.lower() == 'exit':
+        try:
+            url = input("Enter URL: ")
+        except KeyboardInterrupt:
+            print("Exiting...")
             break
 
         filename = download_video(url)
