@@ -24,4 +24,5 @@ It works as WEBM downloader without ffmpeg. But it will output errors. I don't k
 # Youtube Mass WEBM Downloader
  
 Just put the URLs and its done.
-![alt text]([image URL](https://cdn.discordapp.com/attachments/1080953525737111562/1087661097118609428/image.png)
+
+![alt text](https://cdn.discordapp.com/attachments/1080953525737111562/1087661097118609428/image.png)
