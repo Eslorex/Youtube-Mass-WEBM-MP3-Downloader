@@ -3,7 +3,10 @@ You can mass download mp3 and webm files. Read the documentation first.
 
 - Youtube Mass MP3 Downloader
 
-So basically, youtube only provides videos as webm files. If you want to download mp3 files you have to make conversion with ffmpeg. And this program does it automatically for you.
+So basically, youtube only provides videos as webm files. If you want to download mp3 files you have to make conversion with ffmpeg. And this program does it automatically for you. But before that, don't forget to install python and needed libraries.
+
+After installing python, run install_libraries.py so it can install required packages.
+
 
 Which you can download from here --> https://www.gyan.dev/ffmpeg/builds/
 
