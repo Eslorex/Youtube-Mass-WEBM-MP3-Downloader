@@ -17,7 +17,7 @@ So basically, youtube only provides videos as webm files. If you want to downloa
 
 I'm not able to provide the ffmpeg file since github doesn't allow big files in repositories. Thats why you have to download it and rename it by yourself.
 
-And its done! You have completely **free** mp3 downloader. And works with any amount of lines of Youtube URLs. You can use it to easily download many mp3 files to use it for your SoundPad.
+And its done! You have completely **free** mp3 downloader. You don't have to deal with crappy sites filled with ads and avoid matrix. And works with any amount of lines of Youtube URLs. You can use it to easily download many mp3 files to use it for your SoundPad.
 
 Known Issues:
 
