@@ -14,15 +14,15 @@ So basically, youtube only provides videos as webm files. If you want to downloa
 
 I've made some threading to make the process much faster. Its possible to use GPU cores to make this process much faster. But i was too lazy to research and work with CUDA cores.
 
-Known Issues:
+## Known Issues:
 
-Since its a console program (I was too lazy again to make UI for it) , it might not get the last url so pressing Enter again will make it work.
+- Since its a console program (I was too lazy again to make UI for it) , it might not get the last url so pressing Enter again will make it work.
 
-It will not show any progress when converting file into mp3 from webm. And it might take a bit for it to convert mp3 depending on your pc specs so don't worry when nothing happens on console screen. Just wait for the progress. Its usually much faster than online conversion. You can see the progress if you refresh the folder.
+- It will not show any progress when converting file into mp3 from webm. And it might take a bit for it to convert mp3 depending on your pc specs so don't worry when nothing happens on console screen. Just wait for the progress. Its usually much faster than online conversion. You can see the progress if you refresh the folder.
 
-It will not work with playlist urls.
+- It will not work with playlist urls.
 
-Webm files doesn't work with SoundPad. This problem is not related with this code. Its the SoundPad that doesn't work with WebM format so keep that in mind.
+- Webm files doesn't work with SoundPad. This problem is not related with this code. Its the SoundPad that doesn't work with WebM format so keep that in mind.
 
 
 
