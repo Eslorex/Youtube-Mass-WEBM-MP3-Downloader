@@ -1,6 +1,7 @@
 
 
-# Youtube Mass MP3 Downloader
+# Youtube Youtube Mass WEBM MP3 Downloader
+
 
 So basically, youtube only provides videos as webm files. If you want to download mp3 files you have to make conversion with ffmpeg. And this program does it automatically for you.
 
@@ -19,11 +20,5 @@ Since its a console program (I was too lazy again to make UI for it) , it might 
 
 It will not show any progress when converting file into mp3 from webm. And it might take a bit for it to convert mp3 depending on your pc specs so don't worry when nothing happens on console screen. Just wait for the progress. You can see the progress if you refresh the folder.
 
-
-
-
-# Youtube Mass WEBM Downloader
- 
-Just put the URLs and its done.
 
 
