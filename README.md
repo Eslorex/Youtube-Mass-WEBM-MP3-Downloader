@@ -13,7 +13,7 @@ Then put the file in this path like this: MP3 Downloader\ffmpeg\bin
 
 I'm not able to provide the ffmpeg file since github doesn't allow big files in repositories. Thats why you have to download it and rename it by yourself.
 
-And its done. You have free mp3 downloader. And works with any amount of lines of Youtube URLs. You can use it to easily download many mp3 files to use it for you SoundPad.
+And its done. You have free mp3 downloader. And works with any amount of lines of Youtube URLs. You can use it to easily download many mp3 files to use it for your SoundPad.
 
 Known Issues:
 Since its a console program (I was too lazy to make UI for it) , it might not get the last url so pressing Enter again will make it work.
