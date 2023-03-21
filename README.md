@@ -20,6 +20,8 @@ Since its a console program (I was too lazy again to make UI for it) , it might 
 
 It will not show any progress when converting file into mp3 from webm. And it might take a bit for it to convert mp3 depending on your pc specs so don't worry when nothing happens on console screen. Just wait for the progress. You can see the progress if you refresh the folder.
 
+It will not work with playlist urls.
+
 Webm files doesn't work with SoundPad. This problem is not related with this code. Its the SoundPad that doesn't work with WebM format so keep that in mind.
 
 
