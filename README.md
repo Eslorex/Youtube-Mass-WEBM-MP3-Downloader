@@ -2,18 +2,16 @@
 
 # Youtube Mass MP3 Downloader
 
-So basically, youtube only provides videos as webm files. If you want to download mp3 files you have to make conversion with ffmpeg. And this program does it automatically for you. But before that, don't forget to install python and needed libraries also FFMPEG.
+So basically, youtube only provides videos as webm files. If you want to download mp3 files you have to make conversion with ffmpeg. And this program does it automatically for you.
 
 ![alt text](https://cdn.discordapp.com/attachments/1080953525737111562/1087661097118609428/image.png)
 
 
-1. Download FFMPEG from here --> https://www.gyan.dev/ffmpeg/builds/
+1. After installing python (check ADD to PATH), run install_libraries.py so it can install required packages.
 
-2. After installing python, run install_libraries.py so it can install required packages.
+2. Once you downloaded FFMPEG you need to rename the main folder as "ffmpeg" to avoid version problems.
 
-3. Once you downloaded FFMPEG you need to rename the main folder as "ffmpeg" to avoid version problems.
-
-4. Then put the file in this path like this: MP3 Downloader\ffmpeg\bin 
+2. Then put the file in this path like this: MP3 Downloader\ffmpeg\bin 
 
 I'm not able to provide the ffmpeg file since github doesn't allow big files in repositories. Thats why you have to download it and rename it by yourself. Or download the release.
 
