@@ -7,17 +7,11 @@ So basically, youtube only provides videos as webm files. If you want to downloa
 ![alt text](https://cdn.discordapp.com/attachments/1080953525737111562/1087661097118609428/image.png)
 
 
-1. After installing python (check ADD to PATH), run install_libraries.py so it can install required packages.
-
-2. Once you downloaded FFMPEG you need to rename the main folder as "ffmpeg" to avoid version problems.
-
-2. Then put the file in this path like this: MP3 Downloader\ffmpeg\bin 
-
-I'm not able to provide the ffmpeg file since github doesn't allow big files in repositories. Thats why you have to download it and rename it by yourself. Or download the release.
+1. Install python (check ADD to PATH).
+2. Run install_libraries.py so it can install required packages.
+3. And its done! You have completely **free** mp3 downloader. You don't have to deal with crappy sites filled with ads and can avoid matrix. And works with any amount of lines of Youtube URLs. You can use it to easily download many mp3 files to use it for your SoundPad.
 
 I've made some threading to make the process much faster. Its possible to use GPU cores to make this process much faster. But i was too lazy again to research and work with CUDA cores.
-
-And its done! You have completely **free** mp3 downloader. You don't have to deal with crappy sites filled with ads and can avoid matrix. And works with any amount of lines of Youtube URLs. You can use it to easily download many mp3 files to use it for your SoundPad.
 
 Known Issues:
 
