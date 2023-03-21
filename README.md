@@ -4,6 +4,9 @@
 
 So basically, youtube only provides videos as webm files. If you want to download mp3 files you have to make conversion with ffmpeg. And this program does it automatically for you. But before that, don't forget to install python and needed libraries also FFMPEG.
 
+![alt text](https://cdn.discordapp.com/attachments/1080953525737111562/1087661097118609428/image.png)
+
+
 1. Download FFMPEG from here --> https://www.gyan.dev/ffmpeg/builds/
 
 2. After installing python, run install_libraries.py so it can install required packages.
@@ -25,4 +28,4 @@ It works as WEBM downloader without ffmpeg. But it will output errors. I don't k
  
 Just put the URLs and its done.
 
-![alt text](https://cdn.discordapp.com/attachments/1080953525737111562/1087661097118609428/image.png)
+
