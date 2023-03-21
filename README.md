@@ -19,7 +19,7 @@ I'm not able to provide the ffmpeg file since github doesn't allow big files in 
 
 I've made some threading to make the process much faster. Its possible to use GPU cores to make this process much faster. But i was too lazy again to research and work with CUDA cores.
 
-And its done! You have completely **free** mp3 downloader. You don't have to deal with crappy sites filled with ads and avoid matrix. And works with any amount of lines of Youtube URLs. You can use it to easily download many mp3 files to use it for your SoundPad.
+And its done! You have completely **free** mp3 downloader. You don't have to deal with crappy sites filled with ads and can avoid matrix. And works with any amount of lines of Youtube URLs. You can use it to easily download many mp3 files to use it for your SoundPad.
 
 Known Issues:
 
