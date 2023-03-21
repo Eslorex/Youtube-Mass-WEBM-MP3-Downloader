@@ -23,7 +23,7 @@ Known Issues:
 
 Since its a console program (I was too lazy to make UI for it) , it might not get the last url so pressing Enter again will make it work.
 
-It will not show any progress when converting file into mp3 from webm. And it might take a bit for it to convert mp3 depending on your pc specs. You can see the progress if you refresh the folder.
+It will not show any progress when converting file into mp3 from webm. And it might take a bit for it to convert mp3 depending on your pc specs so don't worry when nothing happens on console screen. Just wait for the progress. You can see the progress if you refresh the folder.
 
 
 
