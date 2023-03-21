@@ -30,7 +30,7 @@ def download_videos(urls):
     return filenames
 
 def main():
-    print("Enter YouTube URLs separated by commas. Type 'exit' to quit the program.")
+    print("Enter YouTube URLs. Type 'exit' to quit the program.")
 
     while True:
         urls = input("Enter URLs: ")
