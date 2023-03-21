@@ -4,7 +4,7 @@
 
 So basically, youtube only provides videos as webm files. If you want to download mp3 files you have to make conversion with ffmpeg. And this program does it automatically for you.
 
-![alt text](https://cdn.discordapp.com/attachments/1080953525737111562/1087661097118609428/image.png)
+![alt text](https://cdn.discordapp.com/attachments/1080953525737111562/1087691419344449597/3.png)
 
 
 1. Install python (check ADD to PATH).
