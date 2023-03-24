@@ -3,12 +3,39 @@ import yt_dlp
 import unicodedata
 from tqdm import tqdm
 from multiprocessing import Pool
+import json
+
+CONFIG_FILENAME = 'config.json'
+
+def load_config():
+    script_path = os.path.dirname(os.path.realpath(__file__))
+    config_path = os.path.join(script_path, CONFIG_FILENAME)
+    if os.path.exists(config_path):
+        with open(config_path, 'r') as config_file:
+            return json.load(config_file)
+    return {}
+
+def save_config(config):
+    script_path = os.path.dirname(os.path.realpath(__file__))
+    config_path = os.path.join(script_path, CONFIG_FILENAME)
+    with open(config_path, 'w') as config_file:
+        json.dump(config, config_file, indent=2)
+
+def check_ffmpeg():
+    config = load_config()
+    ffmpeg_path = config.get('ffmpeg_path', os.path.join(os.path.dirname(os.path.realpath(__file__)), 'ffmpeg', 'bin', 'ffmpeg.exe'))
+    while not os.path.exists(ffmpeg_path):
+        print("ffmpeg.exe not found at", ffmpeg_path)
+        ffmpeg_path = input("Please provide the correct path to ffmpeg.exe: ")
+    config['ffmpeg_path'] = ffmpeg_path
+    save_config(config)
+    return ffmpeg_path
 
 def download_video(url):
-    script_path = os.path.dirname(os.path.realpath(__file__))
-    ffmpeg_path = os.path.join(script_path, 'ffmpeg', 'bin', 'ffmpeg.exe')
-    ffprobe_path = os.path.join(script_path, 'ffmpeg', 'bin', 'ffprobe.exe')
+    ffmpeg_path = check_ffmpeg()
+    ffprobe_path = os.path.join(os.path.dirname(ffmpeg_path), 'ffprobe.exe')
 
+    script_path = os.path.dirname(os.path.realpath(__file__))
     ydl_opts = {
         'format': 'bestaudio/best',
         'outtmpl': os.path.join(script_path, '%(title)s.%(ext)s'),
